@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Rental Management</string>
+
+    //This Software is developed by Jyoti Chakma
+    //Contact me on Skype (jyotichakma.official@outlook.com)
+
+    <string name="notes">Notes</string>
+    <string name="add">Add</string>
+    <string name="tenant">Tenant</string>
+    <string name="property">Property</string>
+    <string name="showProperty">Show Property</string>
+    <string name="manageProperty">Manage Property</string>
+    <string name="addProperty">Add Property</string>
+    <string name="addTenant">Add Tenant</string>
+    <string name="manageTenant">Manage Property</string>
+    <string name="rent">Rent</string>
+    <string name="collectRent">Collect Rent</string>
+    <string name="returnRent">Return Rent</string>
+    <string name="pendingRent">Pending Rent</string>
+    <string name="receivedRent">Received Rent</string>
+    <string name="profile">My Profile</string>
+    <string name="about">About</string>
+    <string name="report">Report</string>
+    <string name="cash">Cash</string>
+    <string name="bank">Bank</string>
+    <string name="collect">Collect</string>
+    <string name="returnText">Return</string>
+
+
+    //Login String
+    <string name="email_field">Enter Your Email</string>
+    <string name="pass_field">Enter Your Password</string>
+    <string name="login">Login</string>
+    <string name="register_here">New? Register Here</string>
+
+    //Register String
+    <string name="register">Register</string>
+
+    //Add Property String
+    <string name="add_property">Add Property</string>
+    <string name="property_name">Property Name</string>
+    <string name="property_address">Property Address</string>
+
+    //Add Tenant
+    <string name="phone">Phone Number</string>
+    <string name="adharNum">Adhar Card Number</string>
+    <string name="adharPhoto">Adhar Card Photo</string>
+    <string name="startDate">Start Date</string>
+    <string name="deposit">Deposit</string>
+    <string name="depositDate">Deposit Given Date</string>
+    <string name="rentRenewal">Rent Agreement Renewal Date</string>
+    <string name="tenantName">Tenant Name</string>
+
+    //Collect Rent
+    <string name="amountReceived">Amount Received</string>
+    <string name="till">Till</string>
+
+    //Return Rent
+    <string name="amountReturned">Amount Returned</string>
+    <string name="amountFor">Amount For</string>
+
+    //Report
+    <string name="agreement">Agreement</string>
+    <string name="tenantLedger">Tenant Ledger</string>
+    <string name="allReport">All Report</string>
+
+    //About Us
+    <string name="about_details">Rental Management is the Property Management App.
+        Landlord can manage there Property and Tenant</string>
+
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "398918989407",
+    "firebase_url": "https://rental-management-9717a.firebaseio.com",
+    "project_id": "rental-management-9717a",
+    "storage_bucket": "rental-management-9717a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:398918989407:android:8bfce522a83e6c65368dea",
+        "android_client_info": {
+          "package_name": "com.jumcoder.rentalmanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "398918989407-utq6gkdk68labbopejl1snq4vh6d4dot.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jumcoder.rentalmanagement",
+            "certificate_hash": "4480383e44074e1ae4f6bd823321087b338ff061"
+          }
+        },
+        {
+          "client_id": "398918989407-uv1h13ouqg4o728sbcbjqmt8nou74j6p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfA_XYkL-EeBCgWSpFiVhh4d5G4tQWQtU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "398918989407-uv1h13ouqg4o728sbcbjqmt8nou74j6p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

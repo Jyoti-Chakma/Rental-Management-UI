@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jumcoder.rentalmanagement">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AboutActivity"></activity>
+        <activity android:name=".AllReport" />
+        <activity android:name=".TenantLedger" />
+        <activity android:name=".Agreement" />
+        <activity android:name=".PendingRentReport" />
+        <activity android:name=".Report" />
+        <activity android:name=".ReceivedRent" />
+        <activity android:name=".PendingRent" />
+        <activity android:name=".ReturnRent" />
+        <activity android:name=".CollectRent" />
+        <activity android:name=".Rent" />
+        <activity android:name=".AddTenant" />
+        <activity android:name=".ManageTenant" />
+        <activity android:name=".Tenant" />
+        <activity android:name=".Property" />
+        <activity android:name=".PropertyList" />
+        <activity android:name=".AddProperty" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

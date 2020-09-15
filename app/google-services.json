@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "650079794304",
+    "firebase_url": "https://rental-management-6d50b.firebaseio.com",
+    "project_id": "rental-management-6d50b",
+    "storage_bucket": "rental-management-6d50b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:650079794304:android:48589d322db91505112265",
+        "android_client_info": {
+          "package_name": "com.jumcoder.rentalmanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "650079794304-ld4eetjugqeahdkokjgig4cf6k31ubce.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jumcoder.rentalmanagement",
+            "certificate_hash": "4480383e44074e1ae4f6bd823321087b338ff061"
+          }
+        },
+        {
+          "client_id": "650079794304-mlfcuitu2vbumq14qrirudc1834p7qk8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9od-5DRv6xXGejnc3mj5LBJtdqhXZw_k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "650079794304-mlfcuitu2vbumq14qrirudc1834p7qk8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
