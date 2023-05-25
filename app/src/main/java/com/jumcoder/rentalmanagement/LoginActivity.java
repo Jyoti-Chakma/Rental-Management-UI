@@ -76,17 +76,20 @@ public class LoginActivity extends AppCompatActivity {
                     .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {
-                            if(task.isSuccessful()) {
-                                SendUserToMainActivity();
-                                
-                                Toast.makeText(LoginActivity.this, "You are Logged In Successfully", Toast.LENGTH_SHORT).show();
-                                loadingBar.dismiss();
-                            }
-                            else  {
-                                String message = task.getException().getMessage();
-                                Toast.makeText(LoginActivity.this, "Error Occured" + message, Toast.LENGTH_SHORT).show();
-                                loadingBar.dismiss();
-                            }
+
+                            SendUserToMainActivity();
+
+//                            if(task.isSuccessful()) {
+//                                SendUserToMainActivity();
+//
+//                                Toast.makeText(LoginActivity.this, "You are Logged In Successfully", Toast.LENGTH_SHORT).show();
+//                                loadingBar.dismiss();
+//                            }
+//                            else  {
+//                                String message = task.getException().getMessage();
+//                                Toast.makeText(LoginActivity.this, "Error Occured" + message, Toast.LENGTH_SHORT).show();
+//                                loadingBar.dismiss();
+//                            }
                         }
                     });
         }
