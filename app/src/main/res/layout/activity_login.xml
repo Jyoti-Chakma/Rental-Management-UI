@@ -80,6 +80,7 @@
         android:background="@drawable/secondary_button"
         android:layout_marginHorizontal="50dp"
         android:layout_marginTop="20dp"
+        android:textColor="#fff"
         android:text="@string/login" />
 
     <TextView
