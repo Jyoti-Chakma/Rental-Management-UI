@@ -76,16 +76,19 @@ public class RegisterActivity extends AppCompatActivity {
                     .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {
-                            if(task.isSuccessful()) {
-                                SendUserToSetUpActivity();
 
-                                Toast.makeText(RegisterActivity.this, "Your Account is Created Successfully", Toast.LENGTH_SHORT).show();
-                            }
-                            else {
-                                String message = Objects.requireNonNull(task.getException()).getMessage();
-                                Toast.makeText(RegisterActivity.this, "Error Occurred: " + message, Toast.LENGTH_SHORT).show();
-                            }
-                            loadingBar.dismiss();
+                            SendUserToSetUpActivity();
+
+//                            if(task.isSuccessful()) {
+//                                SendUserToSetUpActivity();
+//
+//                                Toast.makeText(RegisterActivity.this, "Your Account is Created Successfully", Toast.LENGTH_SHORT).show();
+//                            }
+//                            else {
+//                                String message = Objects.requireNonNull(task.getException()).getMessage();
+//                                Toast.makeText(RegisterActivity.this, "Error Occurred: " + message, Toast.LENGTH_SHORT).show();
+//                            }
+//                            loadingBar.dismiss();
                         }
                     });
         }
