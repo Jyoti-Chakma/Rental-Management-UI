@@ -20,8 +20,8 @@ public class AddProperty extends AppCompatActivity {
 
     EditText editText1, editText2, editText3;
     Button button;
-    FirebaseFirestore db = FirebaseFirestore.getInstance();
-    private CollectionReference propertyRef = db.collection("Property");
+    final FirebaseFirestore db = FirebaseFirestore.getInstance();
+    private final CollectionReference propertyRef = db.collection("Property");
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

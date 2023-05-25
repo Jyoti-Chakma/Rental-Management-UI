@@ -9,15 +9,13 @@ import android.view.View;
 
 public class Tenant extends AppCompatActivity {
 
-    private CardView cardView1, cardView2;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tenant);
 
-        cardView1 = findViewById(R.id.addTenantCardView);
-        cardView2 = findViewById(R.id.manageTenantCardView);
+        CardView cardView1 = findViewById(R.id.addTenantCardView);
+        CardView cardView2 = findViewById(R.id.manageTenantCardView);
 
         cardView1.setOnClickListener(new View.OnClickListener() {
             @Override

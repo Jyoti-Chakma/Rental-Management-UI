@@ -11,18 +11,17 @@ import android.os.Bundle;
 import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
-    private CardView cardView, cardView2, cardView3, cardView4, cardView5;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        cardView = findViewById(R.id.propertyCardView);
-        cardView2 = findViewById(R.id.tenantCardView);
-        cardView3 = findViewById(R.id.rentCardView);
-        cardView4 = findViewById(R.id.reportCardView);
-        cardView5 = findViewById(R.id.aboutCardView);
+        CardView cardView = findViewById(R.id.propertyCardView);
+        CardView cardView2 = findViewById(R.id.tenantCardView);
+        CardView cardView3 = findViewById(R.id.rentCardView);
+        CardView cardView4 = findViewById(R.id.reportCardView);
+        CardView cardView5 = findViewById(R.id.aboutCardView);
 
         cardView.setOnClickListener(new View.OnClickListener() {
             @Override

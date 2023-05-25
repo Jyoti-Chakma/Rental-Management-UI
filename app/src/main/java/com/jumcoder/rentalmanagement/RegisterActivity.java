@@ -1,8 +1,5 @@
 package com.jumcoder.rentalmanagement;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,17 +9,17 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
-import java.util.Objects;
-
 public class RegisterActivity extends AppCompatActivity {
 
     private EditText editText1, editText2, editText3;
-    private Button button;
     private FirebaseAuth mAuth;
     private ProgressDialog loadingBar;
 
@@ -37,7 +34,7 @@ public class RegisterActivity extends AppCompatActivity {
         editText1 = findViewById(R.id.registerEmail);
         editText2 = findViewById(R.id.registerPass);
         editText3 = findViewById(R.id.registerRepeatPass);
-        button = findViewById(R.id.registerButton);
+        Button button = findViewById(R.id.registerButton);
         loadingBar = new ProgressDialog(this);
 
         button.setOnClickListener(new View.OnClickListener() {

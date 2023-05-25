@@ -9,14 +9,12 @@ import android.widget.Button;
 
 public class ReturnRent extends AppCompatActivity {
 
-    private Button button;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_return_rent);
 
-        button = findViewById(R.id.returnButton);
+        Button button = findViewById(R.id.returnButton);
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override

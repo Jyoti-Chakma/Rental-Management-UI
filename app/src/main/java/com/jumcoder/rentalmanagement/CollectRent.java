@@ -9,14 +9,12 @@ import android.widget.Button;
 
 public class CollectRent extends AppCompatActivity {
 
-    private Button button;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_collect_rent);
 
-        button = findViewById(R.id.collectButton);
+        Button button = findViewById(R.id.collectButton);
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override

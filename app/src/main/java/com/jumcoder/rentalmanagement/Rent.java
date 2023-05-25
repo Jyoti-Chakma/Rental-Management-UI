@@ -9,17 +9,15 @@ import android.view.View;
 
 public class Rent extends AppCompatActivity {
 
-    private CardView cardView1, cardView2, cardView3, cardView4;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rent);
 
-        cardView1 = findViewById(R.id.collectRentCardView);
-        cardView2 = findViewById(R.id.returnRentCardView);
-        cardView3 = findViewById(R.id.pendingRentCardView);
-        cardView4 = findViewById(R.id.receivedRentCardView);
+        CardView cardView1 = findViewById(R.id.collectRentCardView);
+        CardView cardView2 = findViewById(R.id.returnRentCardView);
+        CardView cardView3 = findViewById(R.id.pendingRentCardView);
+        CardView cardView4 = findViewById(R.id.receivedRentCardView);
 
         cardView1.setOnClickListener(new View.OnClickListener() {
             @Override

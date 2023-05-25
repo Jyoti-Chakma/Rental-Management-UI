@@ -12,12 +12,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class PropertyList extends AppCompatActivity {
 
-    private TextView textView;
     private ListenerRegistration propertyListener;
 
-    private FirebaseFirestore db = FirebaseFirestore.getInstance();
-    private CollectionReference propertyRef = db.collection("Property");
-    private DocumentReference addProperty = db.document("Property/Property List");
+    private final FirebaseFirestore db = FirebaseFirestore.getInstance();
+    private final CollectionReference propertyRef = db.collection("Property");
+    private final DocumentReference addProperty = db.document("Property/Property List");
 
     private static final String KEY_PROPERTY = "property";
     private static final String KEY_ADDRESS = "address";
@@ -28,7 +27,7 @@ public class PropertyList extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_property_list);
 
-        textView = findViewById(R.id.propertyList);
+        TextView textView = findViewById(R.id.propertyList);
 
     }
 }
