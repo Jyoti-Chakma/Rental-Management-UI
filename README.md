@@ -1,6 +1,6 @@
-# Rokto-Data
+# Rental Management UI
 
-Rental Management is a complete app UI for both Tenant and Landlord
+Rental Management UI is a complete app UI for both Tenant and Landlord
 
 ## Screenshots
 
